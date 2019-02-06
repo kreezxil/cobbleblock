@@ -1,0 +1,255 @@
+{
+  "images": {
+    "modpack": {
+      "image": "mainmenu:bg_text.png",
+      "posX": -212.5,
+      "posY": -180,
+      "width": 425,
+      "height": 134.5,
+      "imageWidth": 850,
+      "imageHeight": 269,
+      "alignment": "center"
+    }
+  },
+  "buttons": {
+    "singleplayer": {
+      "text": "menu.singleplayer",
+      "texture": "mainmenu:button.png",
+      "posX": -80,
+      "posY": -28,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "singleplayer"
+      }
+    },
+    "multiplayer": {
+      "text": "menu.multiplayer",
+      "texture": "mainmenu:button.png",
+      "posX": -80,
+      "posY": -6,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "multiplayer"
+      }
+    },
+    "mods": {
+      "text": "fml.menu.mods",
+      "texture": "mainmenu:button.png",
+      "posX": -80,
+      "posY": 16,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "mods"
+      }
+    },
+    "options": {
+      "text": "menu.options",
+      "texture": "mainmenu:button.png",
+      "posX": -80,
+      "posY": 38,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "options"
+      }
+    },
+    "support": {
+      "text": "Issue Tracker",
+      "posX": -79,
+      "posY": 60,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 78,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "texture": "mainmenu:button.png",
+      "action": {
+        "type": "openLink",
+        "link": "https://github.com/kreezxil/cobbleblock/issues"
+      }
+    },
+    "changelog": {
+      "text": "Changelogs",
+      "posX": 1,
+      "posY": 60,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 78,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "texture": "mainmenu:button.png",
+      "action": {
+        "type": "openLink",
+        "link": "https://minecraft.curseforge.com/projects/kreezcraft-presents-cobbleblock/files"
+      }
+    },
+    "bisect": {
+      "text": "25%% Off at Bisect Hosting",
+      "texture": "mainmenu:button.png",
+      "posX": -80,
+      "posY": 82,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "action": {
+        "type": "openLink",
+        "link": "https://bisecthosting.com/kreezxil"
+      }
+    },   
+	"quit": {
+      "text": "menu.quit",
+      "texture": "mainmenu:button.png",
+      "posX": -80,
+      "posY": 104,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "action": {
+        "type": "quit"
+      }
+    },
+    "language": {
+      "text": "",
+      "posX": -27,
+      "posY": 1,
+      "width": 25,
+      "height": 25,
+      "tooltip": "Language",
+      "alignment": "top_right",
+      "imageWidth": "40",
+      "imageHeight": "40",
+      "texture": "mainmenu:lang.png",
+      "action": {
+        "type": "openGui",
+        "gui": "languages"
+      }
+    },
+    "website": {
+      "text": "",
+      "posX": -27,
+      "posY": 25,
+      "width": 25,
+      "height": 25,
+      "alignment": "top_right",
+      "tooltip": "Kreezcraft Site",
+      "texture": "mainmenu:web.png",
+      "imageWidth": "40",
+      "imageHeight": "40",
+      "action": {
+        "type": "openLink",
+        "link": "https://www.kreezcraft.com/"
+      }
+    },
+    "refresh": {
+      "text": "",
+      "posX": 0,
+      "posY": 0,
+      "width": 20,
+      "height": 20,
+      "alignment": "top_left",
+      "texture": "mainmenu:refresh.png",
+      "action": {
+        "type": "refresh"
+      }
+    }
+  },
+  "labels": {
+    "forge": {
+      "text": "Forge #forgeversion#",
+      "posX": 2,
+      "posY": -13,
+      "fontSize": 0.6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "modsloaded": {
+      "text": "#modsloaded# Mods Loaded",
+      "posX": 2,
+      "posY": -7,
+      "fontSize": 0.6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "minecraft": {
+      "text": "Minecraft 1.12.2",
+      "posX": -45,
+      "posY": -13,
+      "fontSize": 0.6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_right"
+    },
+    "mojang": {
+      "text": "Copyright Mojang AB",
+      "posX": -57,
+      "posY": -7,
+      "fontSize": 0.6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_right"
+    }
+  },
+  "other": {
+    "background": {
+      "image": "mainmenu:bg.png",
+      "mode": "fill"
+    }
+  }
+}
