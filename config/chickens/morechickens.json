@@ -256,7 +256,21 @@
     "Drop Item": "thaumcraft:ingot:2",
     "Spawn Type": "NONE",
     "Parent 1": "chickens:blazechicken",
-    "Parent 2": "morechickens:tinchicken"
+    "Parent 2": "morechickens:tinchicken",
+    "name": "brasschicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "techreborn:ingot",
+      "metaID": 1
+    },
+    "drop_item": {
+      "itemID": "techreborn:ingot",
+      "metaID": 1
+    },
+    "spawn_type": "NONE",
+    "parent_1": "morechickens:copperchicken",
+    "parent_2": "morechickens:zincchicken"
   },
   "morechickens:electrumchicken": {
     "Name": "electrumchicken",
@@ -386,7 +400,21 @@
     "Drop Item": "thaumcraft:amber",
     "Spawn Type": "NONE",
     "Parent 1": "chickens:waterchicken",
-    "Parent 2": "chickens:logchicken"
+    "Parent 2": "chickens:logchicken",
+    "name": "amberchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "thaumcraft:amber",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "thaumcraft:amber",
+      "metaID": 0
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:waterchicken",
+    "parent_2": "chickens:logchicken"
   },
   "morechickens:saltchicken": {
     "Name": "saltchicken",
@@ -425,12 +453,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "industrialforegoing:plastic",
-      "metaID": 0
+      "itemID": "techreborn:part",
+      "metaID": 32
     },
     "drop_item": {
-      "itemID": "industrialforegoing:plastic",
-      "metaID": 0
+      "itemID": "techreborn:part",
+      "metaID": 32
     },
     "spawn_type": "NONE",
     "parent_1": "chickens:logchicken",
@@ -621,11 +649,11 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "bigreactors:ingotmetals",
+      "itemID": "bigreactors:ingotyellorium",
       "metaID": 0
     },
     "drop_item": {
-      "itemID": "bigreactors:ingotmetals",
+      "itemID": "bigreactors:ingotyellorium",
       "metaID": 0
     },
     "spawn_type": "NONE",
@@ -645,12 +673,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "bigreactors:ingotmetals",
-      "metaID": 2
+      "itemID": "bigreactors:ingotgraphite",
+      "metaID": 0
     },
     "drop_item": {
-      "itemID": "bigreactors:ingotmetals",
-      "metaID": 2
+      "itemID": "bigreactors:ingotgraphite",
+      "metaID": 0
     },
     "spawn_type": "NONE",
     "parent_1": "chickens:coalchicken",
@@ -669,12 +697,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "bigreactors:ingotmetals",
-      "metaID": 1
+      "itemID": "bigreactors:ingotcyanite",
+      "metaID": 0
     },
     "drop_item": {
-      "itemID": "bigreactors:ingotmetals",
-      "metaID": 1
+      "itemID": "bigreactors:ingotcyanite",
+      "metaID": 0
     },
     "spawn_type": "NONE",
     "parent_1": "morechickens:yelloriumchicken",
@@ -693,12 +721,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "bigreactors:ingotmetals",
-      "metaID": 3
+      "itemID": "bigreactors:ingotblutonium",
+      "metaID": 0
     },
     "drop_item": {
-      "itemID": "bigreactors:ingotmetals",
-      "metaID": 3
+      "itemID": "bigreactors:ingotblutonium",
+      "metaID": 0
     },
     "spawn_type": "NONE",
     "parent_1": "morechickens:cyanitechicken",
@@ -1484,30 +1512,6 @@
     "Parent 1": "morechickens:magicalwoodchicken",
     "Parent 2": "morechickens:moonstonechicken"
   },
-  "morechickens:quartzenrichedironchicken": {
-    "Name": "quartzenrichedironchicken",
-    "Is Enabled": true,
-    "Lay Coefficient": 1.0,
-    "Lay Item": "refinedstorage:quartz_enriched_iron",
-    "Drop Item": "refinedstorage:quartz_enriched_iron",
-    "Spawn Type": "NONE",
-    "Parent 1": "chickens:quartzchicken",
-    "Parent 2": "chickens:ironchicken",
-    "name": "quartzenrichedironchicken",
-    "is_enabled": true,
-    "lay_coefficient": 1.0,
-    "lay_item": {
-      "itemID": "refinedstorage:quartz_enriched_iron",
-      "metaID": 0
-    },
-    "drop_item": {
-      "itemID": "refinedstorage:quartz_enriched_iron",
-      "metaID": 0
-    },
-    "spawn_type": "NONE",
-    "parent_1": "chickens:quartzchicken",
-    "parent_2": "chickens:ironchicken"
-  },
   "_comment": {
     "name": "Just a Reference to the old system naming. Changing does nothing.",
     "is_enabled": "Is chicken enabled?",
@@ -1530,5 +1534,197 @@
     "spawn_type": "Chicken spawn type, can be: NORMAL,SNOW,NONE,HELL",
     "parent_1": "First parent, empty if it cant be breed. modid:chickenid #example: chickens:waterchicken",
     "parent_2": "Second parent, empty if it cant be breed. "
+  },
+  "morechickens:zincchicken": {
+    "name": "zincchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "techreborn:ingot",
+      "metaID": 18
+    },
+    "drop_item": {
+      "itemID": "techreborn:ingot",
+      "metaID": 18
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:whitechicken",
+    "parent_2": "chickens:claychicken"
+  },
+  "morechickens:peridotchicken": {
+    "name": "peridotchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "techreborn:gem",
+      "metaID": 2
+    },
+    "drop_item": {
+      "itemID": "techreborn:gem",
+      "metaID": 2
+    },
+    "spawn_type": "NONE",
+    "parent_1": "morechickens:siliconchicken",
+    "parent_2": "chickens:greenchicken"
+  },
+  "morechickens:rubychicken": {
+    "name": "rubychicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "techreborn:gem",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "techreborn:gem",
+      "metaID": 0
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:redchicken",
+    "parent_2": "morechickens:aluminumchicken"
+  },
+  "morechickens:sapphirechicken": {
+    "name": "sapphirechicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "techreborn:gem",
+      "metaID": 1
+    },
+    "drop_item": {
+      "itemID": "techreborn:gem",
+      "metaID": 1
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:bluechicken",
+    "parent_2": "morechickens:aluminumchicken"
+  },
+  "morechickens:garnetchicken": {
+    "name": "garnetchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "techreborn:gem",
+      "metaID": 3
+    },
+    "drop_item": {
+      "itemID": "techreborn:gem",
+      "metaID": 3
+    },
+    "spawn_type": "NONE",
+    "parent_1": "morechickens:sapphirechicken",
+    "parent_2": "morechickens:rubychicken"
+  },
+  "morechickens:quartzenrichedironchicken": {
+    "name": "quartzenrichedironchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "refinedstorage:quartz_enriched_iron",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "refinedstorage:quartz_enriched_iron",
+      "metaID": 0
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:quartzchicken",
+    "parent_2": "chickens:ironchicken"
+  },
+  "morechickens:yellowgarnetchicken": {
+    "name": "yellowgarnetchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "techreborn:gem",
+      "metaID": 4
+    },
+    "drop_item": {
+      "itemID": "techreborn:gem",
+      "metaID": 4
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:glasschicken",
+    "parent_2": "chickens:glowstonechicken"
+  },
+  "morechickens:chromechicken": {
+    "name": "chromechicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "techreborn:ingot",
+      "metaID": 3
+    },
+    "drop_item": {
+      "itemID": "techreborn:ingot",
+      "metaID": 3
+    },
+    "spawn_type": "NONE",
+    "parent_1": "morechickens:tinchicken",
+    "parent_2": "morechickens:titaniumchicken"
+  },
+  "morechickens:titaniumchicken": {
+    "name": "titaniumchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "techreborn:ingot",
+      "metaID": 14
+    },
+    "drop_item": {
+      "itemID": "techreborn:ingot",
+      "metaID": 14
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:ironchicken",
+    "parent_2": "morechickens:aluminumchicken"
+  },
+  "morechickens:tungstenchicken": {
+    "name": "tungstenchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "techreborn:ingot",
+      "metaID": 15
+    },
+    "drop_item": {
+      "itemID": "techreborn:ingot",
+      "metaID": 15
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:enderchicken",
+    "parent_2": "morechickens:refinedironchicken"
+  },
+  "morechickens:tungstensteelchicken": {
+    "name": "tungstensteelchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "techreborn:ingot",
+      "metaID": 17
+    },
+    "drop_item": {
+      "itemID": "techreborn:ingot",
+      "metaID": 17
+    },
+    "spawn_type": "NONE",
+    "parent_1": "morechickens:tungstenchicken",
+    "parent_2": "morechickens:steelchicken"
+  },
+  "morechickens:refinedironchicken": {
+    "name": "refinedironchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "techreborn:ingot",
+      "metaID": 19
+    },
+    "drop_item": {
+      "itemID": "techreborn:ingot",
+      "metaID": 19
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:ironchicken",
+    "parent_2": "chickens:ironchicken"
   }
 }

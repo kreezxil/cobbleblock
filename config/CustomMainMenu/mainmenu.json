@@ -53,11 +53,11 @@
     "mods": {
       "text": "fml.menu.mods",
       "texture": "mainmenu:button.png",
-      "posX": -80,
+      "posX": -79,
       "posY": 16,
       "textOffsetX": 0,
       "textOffsetY": 0,
-      "width": 160,
+      "width": 78,
       "height": 20,
       "imageWidth": 652,
       "imageHeight": 113,
@@ -67,6 +67,25 @@
       "action": {
         "type": "openGui",
         "gui": "mods"
+      }
+    },    
+	"wiki": {
+      "text": "Wiki",
+      "texture": "mainmenu:button.png",
+      "posX": 1,
+      "posY": 16,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 78,
+      "height": 20,
+      "imageWidth": 652,
+      "imageHeight": 113,
+      "normalTextColor": 4210752,
+      "hoverTextColor": 16277786,
+      "alignment": "center",
+      "action": {
+        "type": "openLink",
+        "link": "https://github.com/kreezxil/cobbleblock/wiki"
       }
     },
     "options": {

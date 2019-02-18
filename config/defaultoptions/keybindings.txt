@@ -31,6 +31,8 @@ key_key.hotbar.6:7:NONE
 key_key.hotbar.7:8:NONE
 key_key.hotbar.8:9:NONE
 key_key.hotbar.9:10:NONE
+key_Change Caster Focus:33:NONE
+key_Misc Caster Toggle:46:ALT
 key_keybind.baublesinventory:48:NONE
 key_key.next_item.desc:0:NONE
 key_key.previous_item.desc:0:NONE
@@ -41,19 +43,16 @@ key_key.exchanger_force_drop_items:52:NONE
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbquests.quests:34:NONE
 key_keybind.hammercorerenderstack:77:NONE
-key_key.ironbackpacks.equip:35:NONE
+key_key.ironbackpacks.equip:0:NONE
 key_key.ironbackpacks.open:23:NONE
+key_key.ij.engine:21:NONE
+key_key.ij.hover:35:NONE
 key_neat.keybind.toggle:0:NONE
 key_openblocks.keybind.vario_switch:47:NONE
 key_openblocks.keybind.vario_vol_up:0:NONE
 key_openblocks.keybind.vario_vol_down:0:NONE
 key_oreexcavation.key.excavate:41:NONE
 key_oreexcavation.key.shape:47:NONE
-key_psimisc.keybind:46:NONE
-key_simplyjetpacks.keybind.engine:36:ALT
-key_simplyjetpacks.keybind.hover:38:NONE
-key_simplyjetpacks.keybind.charger:25:NONE
-key_simplyjetpacks.keybind.emergencyhover:19:NONE
 key_Reload Default Sound Device:25:NONE
 key_key.toastcontrol.clear:20:ALT
 key_key.xtones.scroll:42:NONE
@@ -75,12 +74,12 @@ key_key.architect.toggleAllowPartial:25:NONE
 key_bbw.key.mode:50:NONE
 key_bbw.key.fluidmode:33:NONE
 key_nei.options.keys.gui.botania_corporea_request:46:NONE
-key_key.toggleLiquids:38:NONE
-key_key.toggleVisible:0:NONE
 key_key.modeSwitch:34:ALT
 key_key.rangeChange:19:NONE
 key_key.undoKey:22:NONE
-key_key.anchorKey:35:NONE
+key_key.anchorKey:0:NONE
+key_key.fuzzyKey:0:NONE
+key_key.connectedarea:0:NONE
 key_mod.chiselsandbits.chiselmode.single:0:NONE
 key_mod.chiselsandbits.chiselmode.snap2:0:NONE
 key_mod.chiselsandbits.chiselmode.snap4:0:NONE
@@ -130,23 +129,30 @@ key_key.craftingtweaks.decompressAll:0:NONE
 key_key.craftingtweaks.refill_last:15:NONE
 key_key.craftingtweaks.refill_last_stack:15:NONE
 key_craftpresence.keybind.config.desc:157:NONE
-key_key.columnshiftup:21:NONE
-key_key.columnshiftdown:35:NONE
+key_key.columnshiftup:0:NONE
+key_key.columnshiftdown:0:NONE
 key_key.columnbarup:26:NONE
 key_key.columnbardown:27:NONE
 key_key.keyExtraInvo:45:NONE
 key_key.keyWheel:19:NONE
 key_key.keyExtraCraftin:46:NONE
+key_key.toggleLiquids:38:NONE
+key_key.toggleVisible:0:NONE
 key_Mekanism Item Mode Switch:50:NONE
-key_Mekanism Armor Mode Switch:34:SHIFT
-key_Mekanism Feet Mode Switch:35:NONE
+key_Mekanism Armor Mode Switch:0:NONE
+key_Mekanism Feet Mode Switch:0:NONE
 key_Mekanism Voice:22:NONE
 key_key.immersiveengineering.magnetEquip:31:NONE
 key_key.immersiveengineering.chemthrowerSwitch:0:NONE
+key_key.porterNextDestination:27:NONE
+key_key.porterPrevDestination:26:NONE
+key_key.debugDumpNBTItem:0:NONE
+key_key.debugDumpNBTBlock:0:NONE
 key_invtweaks.key.sort:19:NONE
+key_keys.techreborn.config:25:NONE
 key_Quick Commands:83:NONE
-key_key.modifier:13:NONE
-key_key.submode:0:NONE
+key_mxtune.key.openParty:36:NONE
+key_mxtune.key.openMusicOptions:25:NONE
 key_key.plustic_release_entity.desc:11:NONE
 key_key.plustic_toggle_gui.desc:23:NONE
 key_key.plustic_set_portal.desc:49:NONE
@@ -162,6 +168,9 @@ key_key.torchoptimizer.hotkey:65:NONE
 key_key.torchoptimizer.plusone:26:NONE
 key_key.torchoptimizer.minusone:27:NONE
 key_key.craftingGrid:46:NONE
+key_key.trashslot.toggle:20:NONE
+key_key.trashslot.delete:211:NONE
+key_key.trashslot.deleteAll:211:SHIFT
 key_key.journeymap.zoom_in:13:NONE
 key_key.journeymap.zoom_out:12:NONE
 key_key.journeymap.minimap_type:26:NONE
